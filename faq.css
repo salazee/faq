@@ -1,0 +1,81 @@
+@import url(https://fonts.google.com/share?selection.family=Work+Sans:ital,wght@0,100..900;1,100..900);
+*html{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+body{
+    background-color: hsl(295, 24%, 82%);
+    font-family: work sans;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+}
+.head{
+    position: relative;
+    width: 100%;
+}
+/* img{
+    object-fit: cover;
+} */
+.main{
+    border: 1px solid white;
+    border-radius: 5%;
+    width: 550px;
+    text-align:left;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 1000px;
+    flex-wrap: wrap;
+    
+}
+.title{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 2px;
+}
+.set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.show{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+h1 img{
+    margin: 5%;
+}
+
+/* Yusuf */
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hidden{
+    display: none;
+}
+.shown{
+    display: block;
+}
+@media screen and (max-width:700px){
+    .head{width:100%;}
+    .main{width: 250px;
+    height: auto;
+    margin: 0 30px 0 30px;
+font-size: 10px;
+font-weight: 300;}
+}

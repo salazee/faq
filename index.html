@@ -10,7 +10,7 @@
     <header class="head">
       <div>
         <img
-          src="/images/background-pattern-desktop.svg"
+          src="./images/background-pattern-desktop.svg"
           alt="header design"
           width="100%"
         />
@@ -19,7 +19,7 @@
 
     <div class="main">
       <div class="title">
-        <img src="/images/icon-star.svg" alt="" />
+        <img src="./images/icon-star.jpg" alt="star" />
         <h1>FAQs</h1>
       </div>
       <div class="cont">
@@ -147,14 +147,17 @@
               .classList.add("shown");
 
             // hide minus button
-            parentElement.getElementsByTagName("img")[1].classList.add("hidden");
+            parentElement.getElementsByTagName("img")[1]
+            .classList.add("hidden");
             parentElement
               .getElementsByTagName("img")[1]
               .classList.remove("shown");
             
             // hide the content
-            grandParentElement.getElementsByTagName("div")[1].classList.add("hidden");
-            grandParentElement.getElementsByTagName("div")[1].classList.remove("shown");
+            grandParentElement.getElementsByTagName("div")[1]
+            .classList.add("hidden");
+            grandParentElement.getElementsByTagName("div")[1]
+            .classList.remove("shown");
 
           });
         });
